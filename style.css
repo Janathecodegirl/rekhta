@@ -68,3 +68,13 @@
   border: none;
   color: white;
 }
+/* mobile navbar */
+.logo-nav{
+  width: 50px;
+  height: 30px;
+  margin-top: 6px;
+}
+.logo-nav img{
+  height: 30px;
+  width: 50px;
+}

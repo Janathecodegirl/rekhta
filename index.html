@@ -27,11 +27,11 @@
 
 <div class="container-fluid d-none d-lg-block">
     <div class="container">
-        <div class="row d-flex justify-content-between">
-            <div class="col-lg-2 mt-3">
-                <img src="RekhtaLogo.png">
+        <div class="row d-flex justify-content-around">
+            <div class="col-lg-2  mt-3 logo">
+                <img src="RekhtaLogo.png " class="img-fluid">
             </div>
-            <div class="col-lg-4 mt-2 d-flex ">
+            <div class="col-lg-4 mt-2 d-flex  ps-0 pe-0">
                 <nav class="navbar navbar-expand-lg bg-body-tertiary">
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav">
@@ -62,7 +62,7 @@
                     </div>
                 </nav>
             </div>
-            <div class="col-lg-3 mt-2  d-flex"> 
+            <div class="col-lg-3 mt-2   d-flex"> 
                 <form class="d-flex" role="search">
                     <div class="search-box">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search ms-2" viewBox="0 0 16 16">
@@ -79,7 +79,7 @@
                 
 
             </div>
-            <div class="col-lg-3 mt-2 d-flex">
+            <div class="col-lg-3 mt-2  d-flex">
                 <list class="language ">
                     <a class="nav-link dropdown-toggle "  href="#" role="button" aria-expanded="false">ENG</a>
                     <ul class="dropdown-menu">
@@ -95,12 +95,48 @@
                         <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3m5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3m5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3"/>
                     </svg>
                 </div> 
-                <div class="btn d-flex justify-content-center ms-2">
+                <div class="btn d-flex justify-content-start ms-0 ps-2">
                     <button class="btn-1 ps-2 pe-3">Get App</button>
-                    <button class="btn-2 ms-2 pe-3 ps-3">Donate</button>
+                    <button class="btn-2 ms-1 pe-3 ps-3 ">Donate</button>
                 </div>
             </div>
         </div>    
+    </div>
+</div>
+<div class="container-fluid d-block d-lg-none">
+    <div class="container">
+        <div class="row ">
+            <div class="col-12 d-flex justify-content-between">
+                <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas" aria-controls="offcanvas">
+                    <i class="fa-solid fa-bars "></i>
+                </button>
+                <div class="offcanvas offcanvas-start " tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasLabel">Offcanvas</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        Content for the offcanvas goes here. You can place just about any Bootstrap component or custom elements here.
+                    </div>
+                </div> 
+                <div class="logo-nav">
+                    <img src="RekhtaLogo.png">
+                </div> 
+                <list class="language pt-2">
+                    <a class="nav-link dropdown-toggle "  href="#" role="button" aria-expanded="false">ENG</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">hindi</a></li>
+                        <li><a class="dropdown-item" href="#">eng</a></li>
+                        <li><a class="dropdown-item" href="#">urdu</a></li>
+                    
+                    </ul>
+                </list>
+                <div class="btn d-flex">
+                    <button class="btn-1 ps-1 pe-1 me-1 ">Get App</button>
+                    <button class="btn-2  pe-2 ps-2">Donate</button>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 
