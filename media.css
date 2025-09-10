@@ -1,11 +1,44 @@
-/* @media (max-widt:992px) {
-    .crosswordmaininner{
-   flex-direction: initial;
-  flex-wrap: wrap;
-  text-align: left;
-  padding: 24px 36px;
-  position: relative;
-  overflow: hidden;
-  justify-content: flex-start; 
+@media  (max-width:992px){
+    body{
+        width: 400px;
+    }
 }
-} */
+ @media (max-width:992px){
+    .box1{
+        margin-left: 45px;
+    }
+    .carousel-control-prev{
+        width:50px;
+    }
+
+}
+ @media (max-width:992px){
+    .top5 {
+        margin-left: 20px;
+        text-wrap: nowrap;
+    }
+    .shayari-text p{
+        padding-left: 19px;
+    }
+    .actions i{
+        margin-left: 12px !important;
+       margin-right:5x !important ;
+    }
+ }
+@media (max-width:992px) {
+    .language{
+        margin-right: 10px;
+        padding-right: 6px;
+    }
+    .btn {
+        margin-right: 5px;
+        padding-right: 0 !important;
+        padding-left: 6px !important;
+    }
+}
+@media (max-width:992px){
+    .sectiontagline{
+        margin-left: 25px;
+        padding-left: 10px;
+    }
+}
