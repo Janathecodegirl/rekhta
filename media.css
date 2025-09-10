@@ -1,0 +1,11 @@
+/* @media (max-widt:992px) {
+    .crosswordmaininner{
+   flex-direction: initial;
+  flex-wrap: wrap;
+  text-align: left;
+  padding: 24px 36px;
+  position: relative;
+  overflow: hidden;
+  justify-content: flex-start; 
+}
+} */
