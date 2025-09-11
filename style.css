@@ -292,11 +292,19 @@
  color: red;
  font-size: 9px;
 }
-.shair h5{
+.shair p{
   color:rgb(132, 125, 125) ;
-  padding-left: 10px;
+  margin-left: 40px;
+  font-family: merriweather_extendedLtIt, lailaregular, MehrNastaliqRegular;
+  font-size: 20px;
+}
+.poetry{
+  text-decoration: underline;
+}
+.poetname{
+  padding-left: 5px;
+  text-decoration: underline;
   font-family: merriweather_extendedLtIt, lailaregular, MehrNastaliqRegular;
 }
-.heading4 span{
- text-decoration: underline;
-}
+
+
