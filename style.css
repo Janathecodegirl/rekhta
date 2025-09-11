@@ -32,6 +32,7 @@
       width: 280px; 
       height: 40px;
       margin-top: 10px;
+      margin-left: 20px;
 }
 .search-box input {
       border: none;
@@ -225,43 +226,77 @@
   color: rgb(0, 157, 255);
   font-weight: bold;
 }
-.crosswordmain{
-  padding: 44px 0;
-}
-section{
-  overflow: hidden;
-}
 .container{
   width: 100%;
   max-width: 1200px;
-  padding: 0 16;
+  padding: 0 16; 
   margin: auto;
   box-sizing: border-box;
 }
 .lazyload{
-  width: 250px;
-  height: 200px;
+  width: 280px;
+  height: 300px;
+  padding-bottom: 100px;
+  overflow: hidden;
   
 }
-.crosswordmaininner{
-  background-color: #e3e8da;
-  border-radius: 4px; 
-  /* flex-direction: initial;
-  flex-wrap: wrap;
-  text-align: left;
-  padding: 24px 36px;
-  position: relative;
-  overflow: hidden;
-  justify-content: flex-start; */
-}
-.container {
+.container1 {
     width: 100%;
     max-width: 1200px;
-    padding: 0 16px;
     margin: auto;
     box-sizing: border-box;
 }
-section {
-    overflow: hidden;
+.crosswordincontent{
+  padding-bottom: 90px;
 }
-
+.crosswordincontent button{
+  width: 120px;
+  height: 40px;
+  background-color: rgb(0, 157, 255);
+  border: none;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+.crosswordincontent button a{
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+.boximg{
+  background-color: #e3e8da;
+  height: 200px;
+}
+.crosswordincontent1 button{
+  width: 120px;
+  height: 60px;
+  background-color: rgb(0, 157, 255);
+  border: none;
+  border-radius: 5px;
+}
+.crosswordincontent1 button a{
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+.crosswordincontent1{
+  background-color: #e3e8da;
+}
+.lazyload1 {
+  max-width: 250px; 
+  height: auto;     
+}
+.heading h1{
+  color: red;
+}
+.heading2 i{
+ color: red;
+ font-size: 9px;
+}
+.shair h5{
+  color:rgb(132, 125, 125) ;
+  padding-left: 10px;
+  font-family: merriweather_extendedLtIt, lailaregular, MehrNastaliqRegular;
+}
+.heading4 span{
+ text-decoration: underline;
+}

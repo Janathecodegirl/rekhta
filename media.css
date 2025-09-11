@@ -1,7 +1,23 @@
-@media  (max-width:992px){
+@media  (max-width:576px){
     body{
         width: 400px;
     }
+}
+@media  (min-width:400px) and (max-width:768px){
+    body{
+        width: 600px;
+    }
+    .search-box {
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      display: flex;
+      align-items: center;
+      background: #fff;
+      width: 500px; 
+      height: 40px;
+      margin-top: 10px;
+      margin-left: 10px;
+
 }
  @media (max-width:992px){
     .box1{

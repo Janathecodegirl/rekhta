@@ -265,7 +265,7 @@
   </button>
 </div>
 
-<div class="container text-center mt-5">
+<div class="container text-center mt-5 d-none d-lg-block">
   <h6 class="text-uppercase text-secondary top5">Today's Top 5 Urdu Shayari</h6>  
     <div id="carouselExampleAutoplaying2" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
@@ -309,6 +309,63 @@
                     <span><i class="bi bi-share"></i> Share this</span> 
                     <span><i class="bi bi-book"></i> See Ghazal</span> 
                     <span><i class="bi bi-download"></i> Download</span>
+                </div>    
+            </div>
+        </div>    
+        <button class="carousel-control-prev btn" type="button" data-bs-target="#carouselExampleAutoplaying2" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon " aria-hidden="true"></span>
+            <span class="visually-hidden ">Previous</span>
+        </button>
+        <button class="carousel-control-next btn" type="button" data-bs-target="#carouselExampleAutoplaying2" data-bs-slide="next">
+            <span class="carousel-control-next-icon " aria-hidden="true"></span>
+            <span class="visually-hidden ">Next</span>
+        </button>
+    </div>
+</div>
+<div class="container text-center mt-5 d-block d-lg-none">
+  <h6 class="text-uppercase text-secondary top5">Today's Top 5 Urdu Shayari</h6>  
+    <div id="carouselExampleAutoplaying2" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active ">
+                <div class="shayari-text d-flex justify-content-center">
+                    <p>vo bhī shāyad ro paḌe vīrān kāġhaz dekh kar<br>
+                            maiñ ne us ko āḳhirī ḳhat meñ likhā kuchh bhī nahīñ
+                    </p>
+                </div>
+                <div class="poet-name">ZUHOOR NAZAR</div>
+                <div class="actions">
+                    <span><i class="bi bi-heart"></i> </span>
+                    <span><i class="bi bi-share"></i> </span> 
+                    <span><i class="bi bi-book"></i> </span> 
+                    <span><i class="bi bi-download"></i> </span>
+                </div>
+            </div>
+            <div class="carousel-item">
+               <div class="shayari-text d-flex justify-content-center">
+                    <p>vo bhī shāyad ro paḌe vīrān kāġhaz dekh kar<br>
+                            maiñ ne us ko āḳhirī ḳhat meñ likhā kuchh bhī nahīñ
+                    </p>
+                </div>
+                <div class="poet-name">ZUHOOR NAZAR</div>
+                <div class="actions">
+                    <span><i class="bi bi-heart"></i> </span>
+                    <span><i class="bi bi-share"></i> </span> 
+                    <span><i class="bi bi-book"></i> </span> 
+                    <span><i class="bi bi-download"></i> </span>
+                </div>    
+            </div>
+            <div class="carousel-item">
+                <div class="shayari-text d-flex justify-content-center">
+                    <p>vo bhī shāyad ro paḌe vīrān kāġhaz dekh kar<br>
+                            maiñ ne us ko āḳhirī ḳhat meñ likhā kuchh bhī nahīñ
+                    </p>
+                </div>
+                <div class="poet-name">ZUHOOR NAZAR</div>
+                <div class="actions">
+                    <span><i class="bi bi-heart"></i> </span>
+                    <span><i class="bi bi-share"></i> </span> 
+                    <span><i class="bi bi-book"></i> </span> 
+                    <span><i class="bi bi-download"></i></span>
                 </div>    
             </div>
         </div>    
@@ -417,32 +474,56 @@
 </div>
 
 <!-- card crosswordmain -->
- <section class="crosswordmain">
+ <section class="crosswordmain d-none d-lg-block mt-3 ">
+    <div class="container">
+        <div class="row align-items-center boximg">
+            <div class="col-md-6 col-12 ">
+                <div class="crosswordincontent ">
+                    <h3>URDU CROSSWORD</h3>
+                    <p>
+                        "Rekhta's online crossword puzzle - the world's first Urdu online
+                        crossword for free. Developed in collaboration with Amuse Labs,
+                        these puzzles are specially designed to improve your knowledge of
+                        Urdu language, literature, and culture. Challenge yourself with new
+                        crosswords and engage in playful learning."
+                    </p>
+                   <button> <a class="btn-crosswordplay" href="/games/urdu-crossword?wref=rweb">Start playing</a></button>
+                </div>
+            </div> 
+            <div class="col-md-6 col-12 text-center">
+                <img class="lazyload img-fluid"src="https://www.rekhta.org/Content/Images/crosswordhome.png"alt="Urdu Crossword"/>
+            </div>
+
+        </div>
+    </div>
+</section>
+<!-- mbl screen -->
+<section class="crosswordmain1 d-block d-lg-none">
   <div class="container">
-    <div class="row align-items-center">
+    <div class="row align-items-center text-center">
       
-      
-      <div class="col-md-6 col-12 mb-3">
-        <div class="crosswordincontent">
+      <!-- Image block -->
+      <div class="col-12 mb-3">
+        <img 
+          class="img-fluid lazyload1" 
+          src="https://www.rekhta.org/Content/Images/crosswordhome.png" 
+          alt="Urdu Crossword" 
+        />
+      </div>
+
+      <!-- Text block -->
+      <div class="col-12">
+        <div class="crosswordincontent1">
           <h3>URDU CROSSWORD</h3>
           <p>
-            "Rekhta's online crossword puzzle - the world's first Urdu online
+            Rekhta's online crossword puzzle - the world's first Urdu online
             crossword for free. Developed in collaboration with Amuse Labs,
             these puzzles are specially designed to improve your knowledge of
             Urdu language, literature, and culture. Challenge yourself with new
-            crosswords and engage in playful learning."
+            crosswords and engage in playful learning.
           </p>
-          <a class="btn-crosswordplay" href="/games/urdu-crossword?wref=rweb">Start playing</a>
+          <a class="btn-crosswordplay btn btn-primary" href="/games/urdu-crossword?wref=rweb">Start playing</a>
         </div>
-      </div>
-
-      
-      <div class="col-md-6 col-12 text-center">
-        <img
-          class="lazyload img-fluid"
-          src="https://www.rekhta.org/Content/Images/crosswordhome.png"
-          alt="Urdu Crossword"
-        />
       </div>
 
     </div>
@@ -450,14 +531,32 @@
 </section>
 
 
+<p class="sectiontagline d-flex justify-content-center mt-5">
+    W&nbsp;O&nbsp;R&nbsp;D &nbsp;&nbsp;&nbsp;O&nbsp;F &nbsp;&nbsp;&nbsp;T&nbsp;H&nbsp;E&nbsp;&nbsp;&nbsp; D&nbsp;A&nbsp;Y
+</p>
+<div class="heading d-flex justify-content-center">
+    <h1>taqriir</h1>
+</div>
+<div class="heading2 d-flex justify-content-center">
+    <h1>तक़रीर &nbsp;  &nbsp;<i class="fa-solid fa-circle"></i>  &nbsp;&nbsp; تقریر</h1>
+</div>
 
+<p class="sectiontagline d-flex justify-content-center mt-5">
+    means
+</p>
+<div class="heading3 d-flex justify-content-center">
+    <h3>speech,discourse,statement,declaration</h3>
+</div>
 
+<div class="shair d-flex justify-content-center mt-3">
+    <h5>dekhnā &nbsp; taqrīr  &nbsp; kī   &nbsp;lazzat&nbsp; ki&nbsp; jo &nbsp;us&nbsp; ne &nbsp;kahā<br>
+        maiñ &nbsp;ne&nbsp; ye&nbsp; jaanā&nbsp; ki&nbsp; goyā&nbsp; ye&nbsp; bhī&nbsp; mere&nbsp; dil&nbsp; meñ&nbsp; hai
+    </h5>
+</div>
 
-
-
-
-
-
+<div class="heading4 d-flex justify-content-center mt-3">
+    <p>from the Ghazal <span>"sadgi par uski mar jaane ki hasrat dil mein hai"</span> by Mirza Ghalib</p>
+</div>
 
 
 
