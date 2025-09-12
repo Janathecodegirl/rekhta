@@ -307,15 +307,40 @@
   font-family: merriweather_extendedLtIt, lailaregular, MehrNastaliqRegular;
 }
 
-.searchbox2 {
-  width: 900px;
+ .searchbox2 {
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 2px;
+  width: 100%;        
+  max-width: 500px;   
   height: 40px;
-  border: 2px solid black;
-  border-radius: 5px;
+  background: #fff;
+  margin: 10px auto;   
+ 
 }
-.dictionarybtn{
+
+.dictionarybtn {
+  flex-shrink: 0;      
   width: 100px;
-  height: 200px;
-  background-color: rgb(0, 51, 255);
+  height: 100%;
+  background-color: rgb(41, 27, 168);
   color: white;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.searchbox2 input {
+  flex: 1;             
+  border: none;
+  outline: none;
+  padding: 0 10px;
+  font-size: 14px;
+}
+
+.searchbox2 svg {
+  flex-shrink: 0;      
+  margin-right: 5px;
+  cursor: pointer;
 }
