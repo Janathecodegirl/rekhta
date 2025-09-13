@@ -438,8 +438,10 @@
   padding: 9px;
   border-radius: 4px;
 }
-.footerlist a{
+.footerlist li a{
    text-decoration: none;
    color: white;
-  margin-right: 14px;
+}
+.footerlist{
+  list-style: none;
 }
