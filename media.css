@@ -85,3 +85,24 @@
        padding-left: 5px !important;
     }
 }
+@media (max-width: 576px){
+    .footer input {
+  width: 150px !important;
+  border: none;
+  outline: none;
+}
+.footerbtn{
+  width: 60px;
+  height: 40px;
+  padding: 5px;
+  background-color: rgb(104, 10, 227);
+  color: white;
+  border: none;
+}
+}
+@media (max-width: 576px){
+    .footer{
+  height: 300px;
+}
+}
+

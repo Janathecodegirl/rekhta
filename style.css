@@ -344,3 +344,102 @@
   margin-right: 5px;
   cursor: pointer;
 }
+.footer{
+  height: 200px;
+}
+.footer-heading{
+  color: bisque;
+  text-align: center;
+  font-size: 15px;
+}
+.footerpara{
+  color: white;
+  text-align: center;
+  font-size: 12px;
+}
+.footer input {
+  width: 300px;
+  border: none;
+  outline: none;
+}
+.footerbtn{
+  width: 100px;
+  height: 40px;
+  padding: 5px;
+  background-color: rgb(104, 10, 227);
+  color: white;
+  border: none;
+}
+.footer input placeholder{
+  color: #ddd;
+}
+.checkbox-btn input{
+  width: 20px;
+  margin-bottom: 10px;
+}
+.checkbox-btn p{
+  color: white;
+  padding-left: 10px;
+}
+.checkbox-btn span{
+  color: rgb(25, 51, 183);
+}
+.footerlink{
+  background-color: #4c4c4c;
+  height: 600px;
+  color: white;
+  width: 100%;
+}
+.links{
+  color: bisque;
+}
+.footeranchor{
+  color: white !important;
+}
+.form-control{
+  width: 400px;
+}
+.message{
+  width: 400px;
+  height: 100px; 
+  border: none;
+  outline: none;
+}
+.message placeholder{
+  padding-left: 10px;
+}
+.socialmediashare svg{
+  color: white;
+  padding-right: 14px;
+  font-size: 23px;
+}
+.appAndriod {
+  display: inline-block;
+  width: 120px;
+  height: 40px;
+  background: url("download-on-the-app-store.svg") no-repeat center/contain;
+}
+
+.appIos {
+  display: inline-block;
+  width: 120px;
+  height: 40px;
+  background: url("Google_Play_Store_badge_EN.svg") no-repeat center/contain;
+}
+.condition{
+  font-size: 17px !important;
+  text-wrap: nowrap;
+
+}
+.lastbtn{
+  background-color: rgb(52, 52, 223);
+  color: white;
+  border: none;
+  padding: 9px;
+  border-radius: 4px;
+}
+.footerlist a{
+   text-decoration: none;
+   color: white;
+  margin-right: 14px;
+}
